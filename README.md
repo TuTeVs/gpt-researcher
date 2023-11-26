@@ -1,3 +1,17 @@
+# WINDOWS 10 ISSUE libgoproject:
+original: https://github.com/assafelovic/gpt-researcher/issues/166
+
+1. Install GTK3 runtime latest:
+https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases
+
+2. Go to C:\Program Files\(theGTKfolder)\bin
+
+3. find libgoproject-2-0-0 and change its name by removing the lib part
+
+# RUN
+
+uvicorn main:app --reload --port 7565
+
 # 🔎 GPT Researcher
 [![Official Website](https://img.shields.io/badge/Official%20Website-tavily.com-blue?style=for-the-badge&logo=world&logoColor=white)](https://tavily.com)
 [![Discord Follow](https://dcbadge.vercel.app/api/server/2pFkc83fRq?style=for-the-badge)](https://discord.com/invite/2pFkc83fRq)
