@@ -10,7 +10,9 @@ https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releas
 
 # RUN
 
-uvicorn main:app --reload --port 7565
+1. uvicorn main:app --reload --port 7565
+
+2. http://localhost:7565
 
 # 🔎 GPT Researcher
 [![Official Website](https://img.shields.io/badge/Official%20Website-tavily.com-blue?style=for-the-badge&logo=world&logoColor=white)](https://tavily.com)
